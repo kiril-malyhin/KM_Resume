@@ -1,116 +1,178 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Summary by Kirill Malyhin</title>
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<link href="css/style.css" rel='stylesheet' type='text/css' />
-<script src="js/jquery-1.11.0.min.js"></script>
-<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/app.js"></script>
-<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-				});
-			});
-		</script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>KM</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
-<body>
-<!--start-banner-->
-	<div class="banner" id="home">
-		<div class="container">
-			<div class="banner-top">
-				<a href="index.html"><img src="images/logo.png" alt="" /></a>
-				<h1>WORKING <span> WITH DESIGN LAB</span></h1>
-				<p>We’ve been helping startups launch and grow their businesses. We help you to fill the gap between development, design and product management.</p>
-				<div class="dwn">
-					<a href="#about" class="scroll"><img src="images/dwn-arw.png" alt="" /></a>
-				</div>
-			</div>
-		</div>	
-	</div>	
-	<!--end-banner-->
-	<!--start-about-->
-	<div class="about" id="about">
-		<div class="container">
-			<div class="about-main">
-				<h3>ABOUT US</h3>
-				<p> When you work with us, you are part of a team of committed collaborators.<span> All aspects of our software development process are integrated, iterative and agile.</span></p>
-  				<p>Our approach unifies design, development and product management to create exceptional products. We start each project by understanding your business goals, the user’s needs and the product requirements. Then we help translate them into effective and elegant solutions.</p>
-			</div>
-		</div>
-	</div>
-	<!--end-about-->
-	<!--start-services-->
-	<div class="services">
-		<div class="container">
-			<div class="services-mian">
-				<h3>SERVICES</h3>
-				<p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision. </p>
-				<p>The outcome of this scoping session is a proposal or high-level statement of work. Based on your requirements, we can provide a complete offering or just the pieces you need. </p>
-			</div>
-		</div>
-	</div>
-	<!--end-services-->		
-	<!--start-what-->
-	<div class="what">
-		<div class="container">
-			<div class="what-mian">
-				<h3>WHAT WE DO</h3>
-				<div class="what-top">
-					<div class="what-one">
-						<span class="one"> </span>
-						<h4>DESIGN</h4>
-						<P>Our design practice offers a full range of services including branding strategy, interaction and visual design and user experience testing.</P> 
-						<P>Throughout your project, our designers create and implement visual designs and workflows, solicit user feedback, and work with you to make sure what gets built is what is needed. </P>
-					</div>
-					<div class="what-one">
-						<span class="two"> </span>
-						<h4>DEVELOPMENT</h4>
-						<P>All engineers are fluent in the latest enterprise, mobile and web development technologies. </P>
-						<P>They collaborate with your team to write, test, and improve code on a daily basis, using proven practices such as test-driven development and pair programing.</P> 
-					</div>
-					<div class="what-one">
-						<span class="tre"> </span>
-						<h4>PRODUCT MANAGEMENT</h4>
-						<P>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve. </P> 
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<hr style="border-top: 2px solid">
-	<div class="contact">
-		<div class="container">
-			<div class="contact-main">
-				<h3>CONTACT US</h3>
-				<p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve. </p>
-				<div class="contact-btn">
-					<a class="hvr-sweep-to-right">CONTACT US</a>
-				</div>
-			</div>
-		</div>
-		<script type="text/javascript">
-									$(document).ready(function() {
-										/*
-										var defaults = {
-								  			containerID: 'toTop', // fading element id
-											containerHoverID: 'toTopHover', // fading element hover id
-											scrollSpeed: 1200,
-											easingType: 'linear' 
-								 		};
-										*/
-										
-										$().UItoTop({ easingType: 'easeOutQuart' });
-										
-									});
-								</script>
-		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-	</div>
-	<!--end-contact-->	
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-list"></i>  <span class="light">KM</span>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#education">Education</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#experience">Experience</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Kirill Malyhin</h1>
+                        <p class="intro-text">A junior web developer</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="hr"></div>
+    <!-- About Section -->
+    <section id="about" class="container content-section about-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 detail" >
+                <h1 style="font-size: 40px; text-decoration: underline; padding-bottom: 20px">About Me</h1>
+                <!--<div class="col-md-2"></div>-->
+                <!--<div class="col-md-2" style=" padding-bottom: 20px">-->
+                    <!--<span><img src="img/profile.png" class="round-img"></span>-->
+                <!--</div>-->
+                <!--<div class="col-md-4"></div>-->
+
+                <div class="col-md-12">
+                    <span>I'm a 21-year-old boy loving web design and creative projects. </span>
+                <span>I love to grow in areas that I know of , and acquire new knowledge . Responsible and CEO , I have no bad habits . I am looking for a job
+                    professional development and acquisition of new skills.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="hr"></div>
+    <!-- About Section -->
+    <section id="education" class="container content-section education-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 detail" >
+                <h1 style="font-size: 40px; text-decoration: underline">Education</h1>
+                <p>Today, I am a student of the Belarusian State University of Informatics and RadioElectronics</p>
+            </div>
+        </div>
+    </section>
+    <div class="hr"></div>
+    <!-- About Section -->
+    <section id="experience" class="container content-section experience-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 detail" >
+                <h1 style="font-size: 40px; text-decoration: underline">Experience</h1>
+
+            </div>
+        </div>
+    </section>
+    <!--<div class="hr"></div>-->
+    <!-- Contact Section -->
+    <section id="contact" class="container contact-section content-section text-center">
+        <div class="row">
+            <div>
+                <h1 style="font-size: 40px; text-decoration: underline">Get In Touch</h1>
+
+                    <div class=" wow fadeInLeft">
+                        <div class="contact_info" style="padding-top: 2%">
+
+                            <div class="detail">
+                                <span>Phone: +375 29 162 99 25</span>
+                            </div><br>
+                            <div class="detail">
+                                <span>Email: kiril.malyhin@yandex.ru</span>
+                            </div><br>
+                            <div class="detail">
+                                <span>Skype: dangalax80</span>
+                            </div>
+                        </div>
+                    </div>
+                <br>
+
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://github.com/kiril-malyhin" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/103279126274858237438/posts" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--<div class="hr-white"></div>-->
+    <footer class="footer_wrapper">
+        <div class=" text-right" style=" margin-right: 2%;font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;">
+            <p style="font-size: 15px">Made by Kirill Malyhin &copy; 2016</p>
+        </div>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/grayscale.js"></script>
+
 </body>
+
 </html>
