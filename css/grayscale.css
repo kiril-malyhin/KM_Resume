@@ -36,12 +36,22 @@ p {
     line-height: 1.5;
 }
 
+.detail{
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+    font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
 @media(min-width:768px) {
     p {
         margin: 0 0 35px;
         font-size: 20px;
         line-height: 1.6;
     }
+
+
 }
 
 a {
@@ -138,6 +148,7 @@ a:focus {
         border-bottom: 1px solid rgba(255,255,255,.3);
         background: #000;
     }
+
 }
 
 .intro {
@@ -286,11 +297,12 @@ a:focus {
 
 .experience-section {
     padding-top: 100px;
-    background: url("../img/73933.jpg") no-repeat center;
-    height: 100%;
+    background: url("../img/luxfon.com_2826.jpg") no-repeat center;
+    height: 135%;
     width: 100%;
     background-size: cover;
     min-height: 100%;
+    /*margin-bottom: 100px;*/
 }
 
 .contact-section {
@@ -298,17 +310,16 @@ a:focus {
     background-color: black;
     width: 100%;
     background-size: cover;
+
 }
 
-@media(min-width:767px) {
+@media(max-width:320px) {
+    .detail{
+        font-size: 10px;
+        font-weight: 300;
+        letter-spacing: 1px;
 
-    .download-section {
-        padding: 100px 0;
-    }
-
-    #map {
-        height: 400px;
-        margin-top: 250px;
+        font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;
     }
 }
 
@@ -343,6 +354,18 @@ ul.banner-social-buttons {
 @media(max-width:1199px) {
     ul.banner-social-buttons {
         margin-top: 15px;
+    }
+
+    .detail{
+        font-size: 18px;
+        font-weight: 300;
+        letter-spacing: 1px;
+
+        font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;
+    }
+
+    .footer-align{
+        text-align: center;
     }
 }
 
@@ -386,20 +409,6 @@ img::-moz-selection {
     background: 0 0;
 }
 
-body {
-    webkit-tap-highlight-color: rgba(255,255,255,.2);
-}
-
-.detail{
-    font-size: 25px;
-    font-weight: 300;
-    letter-spacing: 1px;
-
-    font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;
-}
-
-
-
 .round-img{
     border-radius: 100%;
     height: 300px;
@@ -418,3 +427,127 @@ body {
 
     border: 1px solid #202020;
 }
+
+.stylish{
+
+    width:170px;
+    height:170px;
+    display:block;
+    border-radius:100px;
+    -moz-border-radius:100px;
+    -webkit-border-radius:100px;
+    -khtml-border-radius:100px;
+    font-size:25px; color:#fff;
+    line-height:170px;
+    text-align:center;
+    background:transparent;
+    border: 1px solid white;
+    margin-bottom: 40px;
+}
+
+.stylish:hover{
+    color: red;
+    cursor: pointer;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.stylish-lang{
+    cursor: pointer;
+
+    width:170px;
+    height:170px;
+    display:block;
+    border-radius:100px;
+    -moz-border-radius:100px;
+    -webkit-border-radius:100px;
+    -khtml-border-radius:100px;
+    font-size:20px; color:#fff;
+    line-height:150px;
+    text-align:center;
+
+    border: 1px solid white;
+    margin-bottom: 40px;
+}
+
+.stylish-lang-rus{
+    cursor: pointer;
+    background: url("../img/russia.jpg") no-repeat center;
+    background-size: cover;
+
+    width:170px;
+    height:170px;
+    display:block;
+    border-radius:100px;
+    -moz-border-radius:100px;
+    -webkit-border-radius:100px;
+    -khtml-border-radius:100px;
+    font-size:20px;
+    line-height:170px;
+    text-align:center;
+
+    box-shadow: inset 0 0 0 1px black;
+    border: 1px solid black;
+    color:white;
+
+    margin-bottom: 40px;
+}
+.stylish-lang-eng{
+    cursor: pointer;
+    background: url("../img/england.jpg") no-repeat center;
+    background-size: cover;
+
+    width:170px;
+    height:170px;
+    display:block;
+    border-radius:100px;
+    -moz-border-radius:100px;
+    -webkit-border-radius:100px;
+    -khtml-border-radius:100px;
+    font-size:20px;
+    line-height:170px;
+    text-align:center;
+    box-shadow: inset 0 0 0 1px black;
+    border: 1px solid black;
+    color:white;
+
+    margin-bottom: 40px;
+}
+
+.stylish-lang-rus:hover{
+
+    box-shadow: inset 0 0 0 5px white;
+    border: 1px solid white;
+    color:white;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+
+}
+
+.stylish-lang-eng:hover{
+    box-shadow: inset 0 0 0 5px white;
+    border: 1px solid white;
+    color:white;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.threed:hover {
+    cursor: pointer;
+    color: #42dca3;
+
+}
+
+.post{
+    -webkit-animation-delay: 1s; /* Chrome, Safari, Opera */
+    animation-delay: 1s;
+}
+
+.skill{
+    -webkit-animation-delay: 1s; /* Chrome, Safari, Opera */
+    animation-delay: 1s;
+}
+
