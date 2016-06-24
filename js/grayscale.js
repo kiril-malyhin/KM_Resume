@@ -48,8 +48,8 @@ $(document).ready(function(){
             $("#education .post").css({visibility:"visible"});
             $("#education .post").eq(0).addClass('animated zoomIn');
             $("#education .post").eq(1).addClass('animated zoomIn');
-            $("#experience .skill").css({visibility:"visible"});
-            $("#experience .skill").eq(0).addClass('animated bounceInLeft');
+            $("#education .skill").css({visibility:"visible"});
+            $("#education .skill").eq(0).addClass('animated bounceInLeft');
             $("#experience .skill").eq(1).addClass('animated bounceInLeft');
         }
         if ( ($(this).scrollTop()+h) >= $("#experience").offset().top) {
@@ -60,25 +60,7 @@ $(document).ready(function(){
             $("#experience .skill").eq(0).addClass('animated bounceInLeft');
             $("#experience .skill").eq(1).addClass('animated bounceInLeft');
         }
-        if ( ($(this).scrollTop()+h) >= $("#contact").offset().top) {
-            $("#contact .post").css({visibility:"visible"});
-            $("#contact .post").eq(0).addClass('animated zoomIn');
-            $("#contact .post").eq(1).addClass('animated zoomIn');
-            $("#contact .skill").css({visibility:"visible"});
-            $("#contact .skill").eq(0).addClass('animated bounceInLeft');
-            $("#contact .skill").eq(1).addClass('animated bounceInLeft');
-        }
 
-        if ( $(this).scrollTop() == 0 ) {
-            $("#about .post, #about .skill,#education .post,#education .skill, #experience .post,#experience .skill, #contact .post, #contact ,#contact .skill").each(function(){
-                if ( $(this).hasClass('last') ) {
-                    $(this).removeClass().addClass('post last');
-                } else {
-                    $(this).removeClass().addClass('post');
-                }
-                $(this).css({visibility:"hidden"});
-            });
-        }
     });
 });
 

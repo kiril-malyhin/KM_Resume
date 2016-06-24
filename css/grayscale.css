@@ -298,7 +298,7 @@ a:focus {
 .experience-section {
     padding-top: 100px;
     background: url("../img/luxfon.com_2826.jpg") no-repeat center;
-    height: 135%;
+    height: 100%;
     width: 100%;
     background-size: cover;
     min-height: 100%;
@@ -550,4 +550,114 @@ img::-moz-selection {
     -webkit-animation-delay: 1s; /* Chrome, Safari, Opera */
     animation-delay: 1s;
 }
+
+.set-size {
+    font-size: 7em;
+}
+.charts-container:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.pie-wrapper {
+    cursor: pointer;
+    height: 1em;
+    width: 1em;
+    float: left;
+    margin: 15px;
+    position: relative;
+}
+
+.pie-wrapper:hover{
+    -webkit-animation: swing 0.6s ease;
+    animation: swing 0.6s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+.pie-wrapper .pie .half-circle {
+    height: 100%;
+    width: 100%;
+    border: 0.1em solid #3498db;
+    border-radius: 50%;
+    clip: rect(0, 0.5em, 1em, 0);
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.pie-wrapper .label {
+    cursor: pointer;
+    background: transparent;
+    border-radius: 50%;
+    color: white;
+    display: block;
+    font-size: 19px;
+    left: 0.4em;
+    line-height: 2.6em;
+    position: absolute;
+    right: 0.4em;
+    text-align: center;
+    padding-top: 35%;
+}
+
+.pie-wrapper.progress-90 .pie .right-side {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.pie-wrapper.progress-90 .pie .half-circle {
+    border-color: #24be00;
+}
+.pie-wrapper.progress-90 .pie .left-side {
+    -webkit-transform: rotate(320deg);
+    transform: rotate(320deg);
+}
+
+.pie-wrapper.progress-80 .pie .right-side {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.pie-wrapper.progress-80 .pie .half-circle {
+    border-color: #e60031;
+}
+.pie-wrapper.progress-80 .pie .left-side {
+    -webkit-transform: rotate(280deg);
+    transform: rotate(280deg);
+}
+
+.pie-wrapper.progress-70 .pie .right-side {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.pie-wrapper.progress-70 .pie .half-circle {
+    border-color: #e67e22;
+}
+.pie-wrapper.progress-70 .pie .left-side {
+    -webkit-transform: rotate(285deg);
+    transform: rotate(285deg);
+}
+
+.pie-wrapper.progress-40 .pie .right-side {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.pie-wrapper.progress-40 .pie .half-circle {
+    border-color: #e5e600;
+}
+.pie-wrapper.progress-40 .pie .left-side {
+    -webkit-transform: rotate(300deg);
+    transform: rotate(300deg);
+}
+
+.pie-wrapper.progress-50 .pie .right-side {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.pie-wrapper.progress-50 .pie .half-circle {
+    border-color: #09e6e0;
+}
+.pie-wrapper.progress-50 .pie .left-side {
+    -webkit-transform: rotate(240deg);
+    transform: rotate(240deg);
+}
+
 
